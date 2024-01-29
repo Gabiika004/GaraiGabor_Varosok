@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".UpdateActivity">
+
+    <EditText
+        android:id="@+id/editTextNev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Név"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextOrszag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ország"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextLakossag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lakosság"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonModosit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Módosít" />
+
+    <Button
+        android:id="@+id/buttonVissza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vissza" />
+
+</LinearLayout>
